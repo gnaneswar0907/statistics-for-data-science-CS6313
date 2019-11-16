@@ -1,0 +1,61 @@
+2)
+
+> summary(maineGroup)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  30.57   50.00   57.03   58.20   64.24  152.17 
+> IQR(maineGroup)
+[1] 14.24775
+> range(maineGroup)
+[1]  30.567 152.167
+> sd(maineGroup)
+[1] 12.18511
+> summary(awayGroup)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  27.78   49.15   56.92   57.82   64.83  133.71 
+> IQR(awayGroup)
+[1] 15.674
+> range(awayGroup)
+[1]  27.782 133.710
+> sd(awayGroup)
+[1] 13.83538
+
+-----------------------------------------------------------
+
+4)
+
+> summary(maleGroup)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   9.00   30.00   41.00   40.45   51.00   83.00 
+> IQR(maleGroup)
+[1] 21
+> range(maleGroup)
+[1]  9 83
+> sd(maleGroup)
+[1] 13.99289
+> 
+> summary(femaleGroup)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   7.00   28.00   36.00   37.24   46.00   86.00 
+> IQR(femaleGroup)
+[1] 18
+> range(femaleGroup)
+[1]  7 86
+> sd(femaleGroup)
+[1] 12.26925
+
+-----------------------------------------------------
+
+Question 2
+
+> summary(fatal)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    6.00   13.50   17.02   23.00   60.00 
+> IQR(fatal)
+[1] 17
+> range(fatal)
+[1]  0 60
+> sd(fatal)
+[1] 13.81256
+
+> subset(motorcycles$County,motorcycles$Fatal.Motorcycle.Accidents == result)
+[1] GREENVILLE HORRY  
